@@ -7,13 +7,13 @@ namespace SobesWebAPI.Controllers;
 public class ReportController: Controller
 {
     
-    // [HttpPost]
-    // public IActionResult User_statistics()
-    // {
-    //     User query = new User("Alex", 37, 1);
-    //
-    //     return Json(query);
-    // }
+    [HttpPost]
+    public IActionResult User_statistics()
+    {
+        User user = new User("0317871602", 0, 12);
+    
+        return Json(user);
+    }
     
     [HttpGet]
     public IActionResult Info(string GUID)
