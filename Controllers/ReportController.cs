@@ -6,31 +6,20 @@ namespace SobesWebAPI.Controllers;
 
 public class ReportController: Controller
 {
-    //RequestData for POST/report/user_statistics
-    private record class User(
-            string id_user,
-            int start,
-            int end    
-        );
     
-    //ResponseData for GET/report info
-    private record class Query(
-        string GUID,
-        int percent,
-        
-        );
-    
-    [HttpPost]
-    public string User_statistics()
-    {
-        return "User_statistics";
-    }
+    // [HttpPost]
+    // public IActionResult User_statistics()
+    // {
+    //     User query = new User("Alex", 37, 1);
+    //
+    //     return Json(query);
+    // }
     
     [HttpGet]
-    public string Info(string GUID)
+    public IActionResult Info(string GUID)
     {
-        return "info_of_query";
+        Query query = new Query("438h438th4389h", 75);
+
+        return Json(query);
     }
-    
-    
 }

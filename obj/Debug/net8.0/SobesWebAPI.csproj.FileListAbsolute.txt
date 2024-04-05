@@ -10,7 +10,6 @@ C:\Users\Coder\RiderProjects\SobesWebAPI\obj\Debug\net8.0\SobesWebAPI.AssemblyIn
 C:\Users\Coder\RiderProjects\SobesWebAPI\obj\Debug\net8.0\SobesWebAPI.AssemblyInfo.cs
 C:\Users\Coder\RiderProjects\SobesWebAPI\obj\Debug\net8.0\SobesWebAPI.csproj.CoreCompileInputs.cache
 C:\Users\Coder\RiderProjects\SobesWebAPI\obj\Debug\net8.0\SobesWebAPI.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\Coder\RiderProjects\SobesWebAPI\obj\Debug\net8.0\SobesWebAPI.sourcelink.json
 C:\Users\Coder\RiderProjects\SobesWebAPI\obj\Debug\net8.0\staticwebassets.build.json
 C:\Users\Coder\RiderProjects\SobesWebAPI\obj\Debug\net8.0\staticwebassets.development.json
 C:\Users\Coder\RiderProjects\SobesWebAPI\obj\Debug\net8.0\staticwebassets\msbuild.SobesWebAPI.Microsoft.AspNetCore.StaticWebAssets.props
@@ -24,3 +23,4 @@ C:\Users\Coder\RiderProjects\SobesWebAPI\obj\Debug\net8.0\refint\SobesWebAPI.dll
 C:\Users\Coder\RiderProjects\SobesWebAPI\obj\Debug\net8.0\SobesWebAPI.pdb
 C:\Users\Coder\RiderProjects\SobesWebAPI\obj\Debug\net8.0\SobesWebAPI.genruntimeconfig.cache
 C:\Users\Coder\RiderProjects\SobesWebAPI\obj\Debug\net8.0\ref\SobesWebAPI.dll
+C:\Users\Coder\RiderProjects\SobesWebAPI\obj\Debug\net8.0\SobesWebAPI.sourcelink.json
