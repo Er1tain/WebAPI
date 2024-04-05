@@ -1,4 +1,5 @@
-namespace SobesWebAPI.Controllers;
+namespace SobesWebAPI.Models;
+
 
 //RequestData for POST/report/user_statistics
 public record class User(
@@ -8,7 +9,7 @@ public record class User(
 );
 
 //ResponseData for GET/report info
-private record class Query(
+public record class Query(
     string GUID,
     int percent
         
