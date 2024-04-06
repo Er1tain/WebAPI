@@ -8,18 +8,18 @@ public class ReportController: Controller
 {
     
     [HttpPost]
-    public IActionResult User_statistics()
+    public IActionResult User_statistics(string id_user)
     {
-        User user = new User("0317871602", 0, 12);
+        //User user = new User(id_user, start, end);
     
-        return Json(user);
+        return Json(id_user);
     }
     
     [HttpGet]
     public IActionResult Info(string GUID)
     {
-        Query query = new Query("438h438th4389h", 75);
+        //Query query = new Query(GUID);
 
-        return Json(query);
+        return Json(GUID);
     }
 }
