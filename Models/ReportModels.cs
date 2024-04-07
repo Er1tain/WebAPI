@@ -30,9 +30,6 @@ public class User: ModelsMethod
     {
         
     }
-    
-
-	
 }
 
 //ResponseData for GET/report info
@@ -50,11 +47,6 @@ public class Query: ModelsMethod
     public void getData()
     {
         
-    }
-    
-    public void setData() 
-    {
-            
     }
     
 }

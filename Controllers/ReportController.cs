@@ -8,7 +8,7 @@ public class ReportController: Controller
 {
     
     [HttpPost]
-    public IActionResult User_statistics(string id_user)
+    public IActionResult User_statistics(string id_user, int start, int end)
     {
         User user = new User(id_user, start, end);
 
