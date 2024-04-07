@@ -10,16 +10,16 @@ public class ReportController: Controller
     [HttpPost]
     public IActionResult User_statistics(string id_user)
     {
-        //User user = new User(id_user, start, end);
-    
-        return Json(id_user);
+        User user = new User(id_user, start, end);
+
+        return Json(user.getData());
     }
     
     [HttpGet]
     public IActionResult Info(string GUID)
     {
-        //Query query = new Query(GUID);
+        Query query = new Query(GUID);
 
-        return Json(GUID);
+        return Json(query.getData());
     }
 }
